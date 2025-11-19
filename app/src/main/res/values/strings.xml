@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Lab3</string>
+    <string name="head">用户头像</string>
+    <string name="alert">ANDROID APP</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="cancel">Cancel</string>
+    <string name="sign_in">Sign in</string>
+    <string name="start">弹出对话框</string>
+    <string name="menu">菜单</string>
+    <string name="font_size">字体大小</string>
+    <string name="common_menu_item">普通菜单项</string>
+    <string name="font_color">字体颜色</string>
+    <string name="font_size_ten">10</string>
+    <string name="font_size_sixteen">16</string>
+    <string name="font_size_twenty">20</string>
+    <string name="font_color_red">红色</string>
+    <string name="font_color_black">黑色</string>
+    <string name="delete">删除</string>
+</resources>

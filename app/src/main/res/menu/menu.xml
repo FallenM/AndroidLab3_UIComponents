@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/xml_menu"
+        android:title="@string/menu"
+        android:orderInCategory="100"
+        app:showAsAction="always">
+
+        <!-- 子菜单 -->
+        <menu>
+            <item android:id="@+id/xml_menu_item"
+                android:title="@string/font_size">
+                <menu>
+                    <item android:id="@+id/font_size_ten"
+                        android:title="@string/font_size_ten" />
+                    <item android:id="@+id/font_size_sixteen"
+                        android:title="@string/font_size_sixteen" />
+                    <item android:id="@+id/font_size_twenty"
+                        android:title="@string/font_size_twenty" />
+                </menu>
+            </item>
+
+            <item android:id="@+id/xml_menu_item2"
+                android:title="@string/common_menu_item" />
+
+            <item android:id="@+id/xml_menu_item3"
+                android:title="@string/font_color">
+                <menu>
+                    <item android:id="@+id/font_color_red"
+                        android:title="@string/font_color_red" />
+                    <item android:id="@+id/font_color_black"
+                        android:title="@string/font_color_black" />
+                </menu>
+            </item>
+        </menu>
+
+    </item>
+</menu>
